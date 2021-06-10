@@ -1,0 +1,57 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css);
+
+/* Šriftų CSS */
+h1, h2 {
+	color: #b9b9b9;
+	text-align: center;
+	font-family: "Roboto", sans-serif;
+}
+
+p {
+	color: #acacac;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    padding: 30px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+a {
+    color: #ffffff;
+    transition: 0.3s;
+}
+
+a:hover {
+    color: #b9b9b9;
+}
+
+/* Background video CSS */
+#backdrop {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.contentHeader {
+    position: fixed;
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+}
+
+.contentFooter {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+    justify-items: center;
+    position: fixed;
+    color: #f1f1f1;
+    background: #686868;
+    opacity: 0.5;
+    bottom: 0;
+    left: -15px;
+    width: 100%;
+    padding: 40px;
+}
