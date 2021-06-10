@@ -11,7 +11,6 @@ p {
 	color: #acacac;
     font-size: 16px;
     font-family: "Roboto", sans-serif;
-    padding: 30px;
     text-align: center;
     text-justify: inter-word;
 }
@@ -22,6 +21,11 @@ a {
 }
 
 a:hover {
+    color: #b9b9b9;
+}
+
+span {
+    position: fixed;
     color: #b9b9b9;
 }
 
@@ -46,21 +50,6 @@ body {
     padding: 20px;
 }
 
-.contentFooter {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-gap: 20px;
-    justify-items: center;
-    position: fixed;
-    color: #f1f1f1;
-    background: #686868;
-    opacity: 0.5;
-    bottom: 0;
-    left: -15px;
-    width: 100%;
-    padding: 40px;
-}
-
 .contentMiddle {
     display: grid;
     grid-template-columns: auto auto auto;
@@ -70,6 +59,22 @@ body {
     width: 100%;
     top: 50%;
     transform: translate(0, -50%);
+}
+
+.contentFooter {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+    justify-items: center;
+    position: fixed;
+    color: #f1f1f1;
+    background: #686868;
+    opacity: 0.5;
+    bottom: -60px;
+    width: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 40px;
 }
 
 /* mygtukai */
